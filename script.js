@@ -5,14 +5,12 @@ const zoomEffect = (event) => {
   let element = event.target;
   element.style.transition = 'transform 0.5s ease-in-out, margin-right 0.5s ease-in-out';
   element.style.transform = 'scale(1.1)';
-  element.style.marginRight = '1rem';
 }
 
 const zoomEffectOff = (event) => {
   let element = event.target;
   element.style.transition = 'transform 0.5s ease-in-out, margin-right 0.5s ease-in-out';
   element.style.transform = '';
-  element.style.marginRight = '';
 }
 
 const photoContainers = document.querySelectorAll('.image-container');
